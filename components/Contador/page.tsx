@@ -7,7 +7,7 @@ export default function Contador() {
 
     // Render
     return (
-        <section className="bg-blue-300 p-2 mt-6 rounded-xl">
+        <section className="bg-blue-300 p-2 pb-4 mt-6 rounded-xl">
 
             <h2>Contador</h2>
             <p>Contador vai em <span>   </span>!</p>
