@@ -3,10 +3,12 @@ import { useState } from 'react'
 
 export default function SeletorTecno() {
   
-    // Estados
+    // 
+    // A. Estados
 
 
-    // Render
+    // 
+    // B. Renderização
     return (
         <section className="bg-blue-300 p-2 pb-4 mt-6 rounded-xl">
 

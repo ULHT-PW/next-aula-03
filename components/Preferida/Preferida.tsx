@@ -7,19 +7,22 @@ interface PreferidaProps {
 
 export default function Preferida({tecnologia}:PreferidaProps) {
 
-    // Estados
+    //
+    // A. estados
     const [likes, setLikes] = useState(() => {
         const storedLikes = localStorage.getItem(tecnologia)||'0'
         return parseInt(storedLikes)
     })
 
-    // Efeitos
+    //
+    // B. Efeitos
     useEffect(() => {
         localStorage.setItem(tecnologia, `${likes}`);
     }, [likes])
 
 
-    // Render
+    //
+    // C. Renderização
     return (
         <>
             : {likes} <button

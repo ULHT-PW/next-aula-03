@@ -3,11 +3,13 @@ import { useState } from 'react'
 
 export default function InputEcho() {
   
-    // Estados
+    //
+    // A. Estados
     const [texto, setTexto] = useState("")
 
 
-    // Render
+    // 
+    // B. Renderização
     return (
         <section className="bg-blue-300 p-2 pb-4 mt-6 rounded-xl">
 

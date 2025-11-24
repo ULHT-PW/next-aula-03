@@ -2,11 +2,13 @@ import Preferida from "../Preferida/Preferida"
 
 export default function Tecnologias() {
 
-    // estados e variáveis
-
+    //
+    // A. Variáveis
     const tecnologias:string[] = ['HTML', 'CSS', 'JS']
 
-    // renderização
+
+    //
+    // B. renderização
     return (
         <section className="bg-blue-300 p-2 pb-4 mt-6 rounded-xl">
 
