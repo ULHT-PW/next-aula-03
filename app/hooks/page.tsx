@@ -1,22 +1,25 @@
+import Contador from "@/components/Contador/page"
+
 export default function HooksPage() {
-    
-    const [count, setCount] = useState(0)
-    
-    return(
+
+    return (
         <>
-            <h2>Hooks</h2>
-            <div className="bg-blue-400 p-2 rounded-xl">
-                <p>Hooks são funções React client-side. Permitem gerir o comportamento de componentes.</p>
-                <p><strong><code>useState, useEffect, useSWR, useParams</code></strong></p>
-                <p>São uma das principais inovações do React. Tornam o código mais modular e fácil de entender.</p>
-            </div>
+            <section>
+                <h2>Hooks</h2>
+                <div className="bg-blue-300 px-2 py-4 rounded-xl">
+                    <p>
+                        Hooks são funções React para gerir o comportamento de componentes.
+                        Tornam o código mais modular e fácil de entender. 
+                        São uma das principais inovações do React.
+                    </p>
+                    <p>
+                        Hooks: <strong><code>useState, useEffect, useSWR, useParams</code></strong>
+                    </p>
+                    
+                </div>
+            </section>
 
-            <h2 className="mt-4">Contador</h2>
-
-            <p></p>
-
-            
-
+            <Contador />
         </>
     )
 }
